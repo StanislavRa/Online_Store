@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="1017.0" y="1364.0">com.sda.onlineshop.products.TvSet</node>
+    <node x="1205.5" y="0.0">com.sda.onlineshop.products.Product</node>
+    <node x="726.0" y="1364.0">com.sda.onlineshop.products.Radio</node>
+    <node x="0.0" y="1364.0">com.sda.onlineshop.products.FormalShoes</node>
+    <node x="883.2541666666666" y="737.0">com.sda.onlineshop.products.Appliances</node>
+    <node x="239.09375" y="759.0">com.sda.onlineshop.products.Shoes</node>
+    <node x="1299.0" y="1364.0">com.sda.onlineshop.products.Book</node>
+    <node x="1735.59375" y="473.0">com.sda.onlineshop.Account</node>
+    <node x="1210.09375" y="714.0">com.sda.onlineshop.Store</node>
+    <node x="1586.0" y="1364.0">com.sda.onlineshop.products.Magazine</node>
+    <node x="0.0" y="1722.0">com.sda.onlineshop.Main</node>
+    <node x="371.0" y="1364.0">com.sda.onlineshop.products.SportsShoes</node>
+    <node x="1476.59375" y="759.0">com.sda.onlineshop.products.Readings</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.sda.onlineshop.products.Appliances" target="com.sda.onlineshop.products.Product">
+      <point x="0.0" y="-156.5" />
+      <point x="1010.7541666666666" y="453.0" />
+      <point x="1263.7" y="453.0" />
+      <point x="-38.799999999999955" y="211.5" />
+    </edge>
+    <edge source="com.sda.onlineshop.products.FormalShoes" target="com.sda.onlineshop.products.Shoes">
+      <point x="0.0" y="-156.5" />
+      <point x="175.5" y="1339.0" />
+      <point x="305.09375" y="1339.0" />
+      <point x="-66.0" y="134.5" />
+    </edge>
+    <edge source="com.sda.onlineshop.products.TvSet" target="com.sda.onlineshop.products.Appliances">
+      <point x="0.0" y="-156.5" />
+      <point x="1148.0" y="1339.0" />
+      <point x="1074.5041666666666" y="1339.0" />
+      <point x="63.75" y="156.5" />
+    </edge>
+    <edge source="com.sda.onlineshop.products.Book" target="com.sda.onlineshop.products.Readings">
+      <point x="0.0" y="-156.5" />
+      <point x="1432.5" y="1339.0" />
+      <point x="1536.34375" y="1339.0" />
+      <point x="-59.75" y="134.5" />
+    </edge>
+    <edge source="com.sda.onlineshop.Store" target="com.sda.onlineshop.products.Product">
+      <point x="0.0" y="-179.5" />
+      <point x="1316.59375" y="453.0" />
+      <point x="1302.5" y="453.0" />
+      <point x="0.0" y="211.5" />
+    </edge>
+    <edge source="com.sda.onlineshop.Account" target="com.sda.onlineshop.products.Product">
+      <point x="0.0" y="-420.5" />
+      <point x="1949.59375" y="443.0" />
+      <point x="1380.1" y="443.0" />
+      <point x="77.59999999999991" y="211.5" />
+    </edge>
+    <edge source="com.sda.onlineshop.products.Readings" target="com.sda.onlineshop.products.Product">
+      <point x="0.0" y="-134.5" />
+      <point x="1596.09375" y="453.0" />
+      <point x="1341.3" y="453.0" />
+      <point x="38.799999999999955" y="211.5" />
+    </edge>
+    <edge source="com.sda.onlineshop.products.SportsShoes" target="com.sda.onlineshop.products.Shoes">
+      <point x="0.0" y="-156.5" />
+      <point x="538.5" y="1339.0" />
+      <point x="437.09375" y="1339.0" />
+      <point x="66.0" y="134.5" />
+    </edge>
+    <edge source="com.sda.onlineshop.products.Magazine" target="com.sda.onlineshop.products.Readings">
+      <point x="0.0" y="-156.5" />
+      <point x="1731.5" y="1339.0" />
+      <point x="1655.84375" y="1339.0" />
+      <point x="59.75" y="134.5" />
+    </edge>
+    <edge source="com.sda.onlineshop.products.Shoes" target="com.sda.onlineshop.products.Product">
+      <point x="0.0" y="-134.5" />
+      <point x="371.09375" y="443.0" />
+      <point x="1224.9" y="443.0" />
+      <point x="-77.59999999999991" y="211.5" />
+    </edge>
+    <edge source="com.sda.onlineshop.products.Radio" target="com.sda.onlineshop.products.Appliances">
+      <point x="0.0" y="-156.5" />
+      <point x="861.5" y="1339.0" />
+      <point x="947.0041666666666" y="1339.0" />
+      <point x="-63.75" y="156.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.6000000000000001" x="1390.5" y="635.9999999999999" />
+  <SelectedNodes>
+    <node>com.sda.onlineshop.products.Appliances</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
